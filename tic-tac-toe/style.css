@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #4e97e1;
+    text-align: center;
+}
+h1{
+    margin-top: 25px;
+    font-size: 8.5vmin;
+    font-family: "Bitcount Prop Single", system-ui;
+    line-height: 1.5;
+}
+.container{
+    height: 70vh;
+    display:grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 20px;
+
+}
+.player-turn{
+    font-size: 4.5vmin;
+    margin-bottom: 20px;
+
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+.box{
+    font-weight: 700;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    background-color: #CFE9F7;
+}
+.x-text{
+    color:#984447;
+}
+.o-text{
+    color:#2a6e36;
+}
+#reset{
+    height: 75px;
+    width: 175px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color:#101419;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0px 0px 16px rgba(0,0,0,0.3);
+}
+.winner-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.winner-box {
+    height: 200px;
+    width: 370px;
+    background: #add9f4;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0,0,0,0.4);
+    animation: pop 0.3s ease;
+}
+
+.winner-box p {
+    margin-top: 1rem;
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.winner-box button {
+    width: 175px;
+    height: 75px;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.5rem;
+    border: none;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+@keyframes pop {
+    from { transform: scale(0.7); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+.hide{
+    visibility: hidden;
+}

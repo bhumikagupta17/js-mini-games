@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Tic Tac Toe</h1>
+        <div class="container">
+            <div class="player-turn hide " id="player-o"> Player O's turn</div>
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+            <div class="player-turn hide" id="player-x"> Player X's turn</div>
+        </div>
+        <button id="reset">Reset Game</button>
+    </main>
+    <div class="winner-modal hide">
+    <div class="winner-box">
+        <p id="winner-text"></p>
+        <button id="new-game-btn">New Game</button>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
