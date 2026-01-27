@@ -20,6 +20,18 @@ A simple two-player Tic Tac Toe game built completely from scratch.
 
 ---
 
+### ✊✋✌️ Rock Paper Scissors
+A classic Rock Paper Scissors game where the user plays against the computer.
+
+**Features:**
+- User vs Computer gameplay
+- Random computer choice
+- Score tracking
+- Win, lose, and draw messages
+- Simple and interactive UI
+
+---
+
 ## 🚀 Tech Stack
 - HTML5
 - CSS3
@@ -37,13 +49,22 @@ js-mini-games/
 │ ├── style.css
 │ └── script.js
 │
+├── rock-paper-scissors/
+│ ├── images/
+│ │ ├── rock.png
+│ │ ├── paper.png
+│ │ └── scissors.png
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+│
 └── README.md
 ```
 
 ---
 
 ## 🌱 Learning Goals
-- Practice DOM manipulation
+- Practice DOM manipulation and event handling
 - Understand game logic implementation
 - Improve JavaScript fundamentals
 - Build confidence with small projects
@@ -51,13 +72,16 @@ js-mini-games/
 ---
 
 ## 🌐 Live Demo
-*(Will be added using GitHub Pages)*
+
+Individual live demos will be available for each game.
 
 ---
 
 ## 🔮 Future Improvements
-- Improve UI animations
-- Make the game mobile responsive
+- Improve UI animations across games
+- Make all games mobile responsive
+- Add sound effects
+- Add more mini games (e.g., Snake, Memory Game)
 
 ---
 
