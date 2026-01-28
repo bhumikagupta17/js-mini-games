@@ -4,9 +4,6 @@
     text-align: center;
     box-sizing: border-box;
 }
-html{
-    height: 100%;
-}
 body{
     background: linear-gradient(
         to bottom,
@@ -14,17 +11,18 @@ body{
         #a3b0d4 
     );
     height:100%;
+    overflow:hidden;
 }
 h1{
-    padding: 1.5rem;
-    font-size: 4rem;
+    padding: 1.2rem;
+    font-size: 3.5rem;
     background-color: #081b31;
     color: #ffffff;
-    height: 7rem;
+    height: 6rem;
     line-height: 5rem;
 }
 .choices{
-    padding: 40px;
+    padding: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +68,6 @@ img{
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    margin-top: 2rem;
     gap: 5rem;
 }
 .score{
@@ -81,6 +78,7 @@ img{
 }
 .msg-container{
     margin-top: 2rem;
+    margin-bottom:2rem;
 
 }
 #msg{
