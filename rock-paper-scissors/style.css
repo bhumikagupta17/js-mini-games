@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     text-align: center;
+    box-sizing: border-box;
 }
 html{
     height: 100%;
@@ -12,6 +13,7 @@ body{
         #ffffff ,
         #a3b0d4 
     );
+    height:100%;
 }
 h1{
     padding: 1.5rem;
