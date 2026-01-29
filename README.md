@@ -74,12 +74,14 @@ js-mini-games/
 ## 🌐 Live Demo
 🔗 [View Live Website](https://bhumikagupta17.github.io/js-mini-games/)
 
-
+---
+### 🚀 Recent Improvements
+- Implemented full **mobile responsiveness** using CSS media queries.
+- Optimized layout and scrolling for screens ≤768px.
 ---
 
 ## 🔮 Future Improvements
 - Improve UI animations across games
-- Make all games mobile responsive
 - Add sound effects
 - Add more mini games (e.g., Snake, Memory Game)
 
