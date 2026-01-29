@@ -106,6 +106,9 @@ img{
     }
 }
 @media (max-width: 768px) {
+     body {
+    overflow: auto;
+     }
     .choices {
         flex-direction: column;
         gap: 1.5rem;
