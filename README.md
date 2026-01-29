@@ -72,8 +72,8 @@ js-mini-games/
 ---
 
 ## 🌐 Live Demo
+🔗 [View Live Website](https://bhumikagupta17.github.io/js-mini-games/)
 
-Individual live demos will be available for each game.
 
 ---
 
